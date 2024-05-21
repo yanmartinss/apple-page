@@ -1,0 +1,78 @@
+section#ad {
+    background-image: url(../images/materia-escura-mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+#ad .text {
+    height: 100%;
+    margin: 0 auto;
+    padding: 23px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#ad .tv {
+    width: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#ad .tv .bla {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#ad .tv .blabla {
+    margin-top: -20px;
+}
+
+#ad .ad {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#ad .tv img {
+    width: 100%;
+}
+
+#ad .text h1 {
+    text-align: center;
+    width: 95%;
+    margin-bottom: 30px;
+}
+
+#ad .text button {
+    font-size: 1.2em;
+    border: none;
+    color: black;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#ad .text button:hover {
+    background-color: #ffffffea;
+}
+
+@media screen and (min-width: 768px) {
+    section#ad {
+        background-image: url(../images/mtaeria-escura.png);
+        background-size: cover;
+        background-position: center center;
+    }
+}

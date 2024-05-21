@@ -1,0 +1,70 @@
+section#watch {
+    width: 100vw;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+#watch .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+#watch .relogio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+}
+
+#watch .relogio img {
+    width: 100%;
+}
+
+#watch .text p {
+    font-size: 0.8em;
+    margin-top: -35px;
+    color: red;
+    font-weight: 600;
+}
+
+#watch .text h2 {
+    font-size: 1.1em;
+}
+
+#watch .btns {
+    display: flex;
+    gap: 20px;
+}
+
+#watch .btn-1,
+#watch .btn-2 {
+    font-size: 1.2em;
+    border: 1px solid #0077ED;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#watch .btn-1 {
+    color: white;
+    background-color: #0077ED;
+}
+
+#watch .btn-2 {
+    color: #0077ED;
+    background-color: transparent;
+}
+
+#watch .img-watch {
+    padding-bottom: 20px;
+    width: 100%;
+    max-width: 530px;
+}
+
+#watch .img-watch img {
+    width: 100%;
+}

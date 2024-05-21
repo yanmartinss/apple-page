@@ -1,0 +1,63 @@
+section#iphone-15-pro {
+    background-color: black;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+#iphone-15-pro .text {
+    margin: 0 auto;
+    padding: 23px;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+#iphone-15-pro .text h1 {
+    font-size: 2.5em;
+}
+
+#iphone-15-pro .text h2 {
+    font-size: 1.1em;
+}
+
+#iphone-15-pro .text h3 {
+    color: #86868B;
+    font-size: 1em;
+}
+
+#iphone-15-pro .btns {
+    display: flex;
+    gap: 20px;
+}
+
+#iphone-15-pro .btn-1,
+#iphone-15-pro .btn-2 {
+    font-size: 1.2em;
+    border: 1px solid #0077ED;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#iphone-15-pro .btn-1 {
+    color: white;
+    background-color: #0077ED;
+}
+
+#iphone-15-pro .btn-2 {
+    color: #0077ED;
+    background-color: transparent;
+}
+
+#iphone-15-pro .img-iphone-15-pro {
+    padding-bottom: 20px;
+    width: 100%;
+    max-width: 530px;
+}
+
+#iphone-15-pro .img-iphone-15-pro img {
+    width: 100%;
+}

@@ -1,0 +1,177 @@
+footer {
+    width: 100vw;
+    background-color: #F1F1F1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(82, 82, 82);
+    font-weight: 550;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer .text {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .text a {
+    color: black;
+}
+
+footer .text p {
+    text-align: left;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.281);
+    width: 100%;
+}
+
+footer .footer-list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    align-items: center;
+}
+
+footer .footer-group ul {
+    display: none;
+}
+
+footer .footer-group ul li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+footer .footer-group {
+    width: 100%;
+}
+
+
+footer .footer-list p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.281);
+    width: 100%;
+    display: block;
+}
+
+footer .footer-list p span {
+    display: inline-block;
+    transform: rotate(90deg);
+}
+
+footer .copy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+footer .copy p {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+footer .copy .p-2 {
+    width: 100%;
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .copy span {
+    font-weight: 600;
+}
+
+@media screen and (min-width: 843px) {
+    footer .copy .p-1 {
+        border-bottom: 1px solid gray;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    footer .footer-list p {
+        border: none;
+    }
+
+    footer .footer-list p span {
+        display: none;
+    }
+
+    footer .footer-group {
+        height: 100%;
+    }
+
+    footer .footer-group ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer .footer-group p {
+        color: black;
+        font-weight: 600;
+    }
+
+    footer ul {
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    footer .footer-list {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        column-gap: 7px;
+        grid-template-areas: 
+        'descobrir conta applestore empresas valores'
+        'descobrir entretenimento applestore educacao sobre'
+        'carteira entretenimento applestore saude sobre';
+    }
+
+    footer .descobrir {
+        grid-area: descobrir;
+    } 
+
+    footer .carteira {
+        grid-area: carteira;
+    }
+
+    footer .conta {
+        grid-area: conta;
+    }
+
+    footer .entretenimento {
+        grid-area: entretenimento;
+    }
+
+
+    footer .applestore {
+        grid-area: applestore;
+    }
+
+    footer .empresas {
+        grid-area: empresas;
+    }
+
+    footer .educacao {
+        grid-area: educacao;
+    }
+
+    footer .saude {
+        grid-area: saude;
+    }
+
+    footer .valores {
+        grid-area: valores;
+    }
+
+    footer .sobre {
+        grid-area: sobre;
+    }
+}

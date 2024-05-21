@@ -1,0 +1,58 @@
+section#materia-escura {
+    background-image: url(../images/materia-escura-mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+#materia-escura .text {
+    margin: 0 auto;
+    padding: 23px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#materia-escura .tv {
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#materia-escura .tv img {
+    width: 100%;
+}
+
+#materia-escura .text h1 {
+    text-align: center;
+    width: 95%;
+    margin-bottom: 30px;
+}
+
+#materia-escura .text button {
+    font-size: 1.2em;
+    border: none;
+    color: black;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#materia-escura .text button:hover {
+    background-color: #ffffffea;
+}
+
+
+@media screen and (min-width: 768px) {
+    section#materia-escura {
+        background-image: url(../images/mtaeria-escura.png);
+        background-size: cover;
+        background-position: center center;
+    }
+}

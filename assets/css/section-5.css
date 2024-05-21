@@ -1,0 +1,64 @@
+section#iphone-15 {
+    background: rgb(222,246,255);
+    background: linear-gradient(188deg, rgba(222,246,255,1) 0%, rgba(145,225,255,1) 100%);
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+#iphone-15 .text {
+    margin: 0 auto;
+    padding: 23px;
+    text-align: center;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+#iphone-15 .text h1 {
+    font-size: 2.5em;
+}
+
+#iphone-15 .text h2 {
+    font-size: 1.1em;
+}
+
+#iphone-15 .text h3 {
+    color: #86868B;
+    font-size: 1em;
+}
+
+#iphone-15 .btns {
+    display: flex;
+    gap: 20px;
+}
+
+#iphone-15 .btn-1,
+#iphone-15 .btn-2 {
+    font-size: 1.2em;
+    border: 1px solid #0077ED;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#iphone-15 .btn-1 {
+    color: white;
+    background-color: #0077ED;
+}
+
+#iphone-15 .btn-2 {
+    color: #0077ED;
+    background-color: transparent;
+}
+
+#iphone-15 .img-iphone-15 {
+    padding-bottom: 20px;
+    width: 100%;
+    max-width: 530px;
+}
+
+#iphone-15 .img-iphone-15 img {
+    width: 100%;
+}

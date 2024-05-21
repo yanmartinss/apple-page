@@ -1,0 +1,53 @@
+header {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background-color: #1D1D1F;
+}
+
+header li {
+    cursor: pointer;
+}
+
+header li:hover {
+    color: #1D1D1F;
+    background-color: white;
+}
+
+.imgs-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+}
+
+.imgs-header img {
+    width: 100%;
+    height: 100%;
+}
+
+.products {
+    display: none;
+    color: rgba(255, 255, 255, 0.884);
+}
+
+.products ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.products h2 {
+    font-size: 0.9em;
+}
+
+.menu {
+    display: flex;
+    gap: 30px;
+}
+
+@media screen and (min-width: 1100px) {
+    .products {
+        display: flex;
+    }
+}
