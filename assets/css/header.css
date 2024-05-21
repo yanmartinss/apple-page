@@ -10,8 +10,7 @@ header li {
 }
 
 header li:hover {
-    color: #1D1D1F;
-    background-color: white;
+    color: white;
 }
 
 .imgs-header {
